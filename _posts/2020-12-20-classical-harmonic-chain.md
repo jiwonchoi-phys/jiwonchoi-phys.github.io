@@ -1,13 +1,11 @@
 ---
 title : "1.1 Classical harmonic chain : phonons"
 categories :
-    - Condensed mattehr field theory
+    - Condensed matter field theory
 author_profile : true
 toc : true
 
 ---
-
-# 1.1 Classical harmonic chain : phonons
 
 고체로 이루어진 어떤 계의 해밀토니안은 다음과 같이 주어진다.
 
