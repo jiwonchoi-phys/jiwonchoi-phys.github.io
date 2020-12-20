@@ -8,6 +8,7 @@ use_math : true
 
 ---
 
+### Introduction
 고체로 이루어진 어떤 계의 해밀토니안은 다음과 같이 주어진다.
 
 $$H = H_e + H_i + H_{ei} \\
@@ -33,7 +34,7 @@ $$L = \sum_I P_I\dot{R_I}-H = \sum_{I=1}^N \lbrack \frac{M\dot{R_I}^2}{2} - \fra
 
 그리고 이를 시간 영역 $[0,t_0]$에서 적분하면 라그랑지안의 액션을 얻는다.
 
-$$S = \int_0^{t_0} dt L(R,\dot{R}) \qquad where\enspace (R,\dot{R}) =\{R_I,\dot{R_I}\} $$
+$$S = \int_0^{t_0} dt L(R,\dot{R}) \qquad where\enspace (R,\dot{R}) =\{R_I,\dot{R_I}\}$$
 
 그리고 우리는 입자의 갯수 $N$이 상당히 많은 계를 다루기 때문에 시스템의 경계조건은 무시하기로 하자. 게다가 격자의 진동이 매우 약하다면 이들 이온은 자신의 중심 위치에서 크게 벗어나지 않을 것이다.(즉 $|R_I(t)-\bar{R_I}| \ll a$) 그리고 $R_I(t) = \bar{R_I} + \phi_I(t)$를 위 라그랑지안에 대입하면
 
