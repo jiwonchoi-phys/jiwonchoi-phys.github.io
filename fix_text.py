@@ -14,7 +14,7 @@ with open(file,'r+') as f:
         line = line.replace("dag","dagger")
         line = line.replace("infin","infty")
         line = line.replace("isin","in")
-        line = line.replace("|","\middle|")
+        line = line.replace("|","\mid")
         print("->",line)
         texts.append(line)
 
