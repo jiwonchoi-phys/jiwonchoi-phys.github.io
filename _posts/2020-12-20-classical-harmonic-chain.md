@@ -11,12 +11,7 @@ use_math : true
 ### Introduction
 고체로 이루어진 어떤 계의 해밀토니안은 다음과 같이 주어진다.
 
-$$H = H_e + H_i + H_{ei} \\
-\begin{cases}
-H_e = \sum_i \frac{\bold{p}_i^2}{2m} + \sum_{i<j}V_{ee}(\bold{r}_i-\bold{r}_j),\\
-H_ i= \sum_I \frac{\bold{p}_I^2}{2m} + \sum_{I<J}V_{ii}(\bold{R}_I-\bold{R}_J),\\
-H_{ei} = \sum_{iI}V_{ei}(\bold{R}_I-\bold{r}_i)
-\end{cases}$$
+$$H = H_e + H_i + H_{ei} \\ \begin{cases} H_e = \sum_i \frac{\bold{p}_i^2}{2m} + \sum_{i<j}V_{ee}(\bold{r}_i-\bold{r}_j),\\ H_ i= \sum_I \frac{\bold{p}_I^2}{2m} + \sum_{I<J}V_{ii}(\bold{R}_I-\bold{R}_J),\\ H_{ei} = \sum_{iI}V_{ei}(\bold{R}_I-\bold{r}_i) \end{cases}$$
 
 실제로는 스핀에 의한 기여, 무질서도나 결함에 의한 기여 등 고려하지 않은 여러 상호작용이 있을 테지만 지금은 위의 경우만 고려하기로 하자. 주어진 해밀토니안을 보면 전자-전자 상호작용, 전자-이온 상호작용, 이온-이온 상호작용 이렇게 세가지의 상호작용이 나타난다는 것을 알 수 있다. 지금은 그 중에서도 고체 내에서 격자를 이루고 있는 이온간의 상호작용만을 떼서 고전적인 입자로 생각해 볼 것이다. 문제를 간단히 하기 위해서 이온 사이의 평균 간격이 $a$인 1차원의 이온 사슬을 생각하자. 그리고 이온들끼리의 상호작용만 고려하기로 했기 때문에 $H_e = H_i = 0$으로 둔다. 
 
