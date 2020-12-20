@@ -1,6 +1,9 @@
 ---
 title : "1.1 Classical harmonic chain : phonons"
-excerpt : "Condensed atter field theory 1.1" 
+categories :
+    - Condensed mattehr field theory
+author_profile : true
+toc : true
 
 ---
 
