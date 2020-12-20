@@ -11,7 +11,7 @@ use_math : true
 ### Introduction
 고체로 이루어진 어떤 계의 해밀토니안은 다음과 같이 주어진다.
 
-$$H = H_e + H_i + H_{ei} \n\n
+$$H = H_e + H_i + H_{ei} \\
 \begin{cases}
 H_e = \sum_i \frac{\bold{p}_i^2}{2m} + \sum_{i<j}V_{ee}(\bold{r}_i-\bold{r}_j),\\
 H_ i= \sum_I \frac{\bold{p}_I^2}{2m} + \sum_{I<J}V_{ii}(\bold{R}_I-\bold{R}_J),\\
