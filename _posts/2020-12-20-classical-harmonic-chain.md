@@ -4,6 +4,7 @@ categories :
     - Condensed matter field theory
 author_profile : true
 toc : true
+use_math : true
 
 ---
 
