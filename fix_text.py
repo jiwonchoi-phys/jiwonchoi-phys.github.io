@@ -3,7 +3,7 @@ import os
 location = os.getcwd()+"/_posts"
 os.chdir(location)
 print(location)
-file = "2020-12-20-cmft-1-1.md"
+file = "2020-12-21-cmft-2-1.md"
 texts = []
 
 with open(file,'r+') as f:
@@ -14,7 +14,7 @@ with open(file,'r+') as f:
         line = line.replace("dag","dagger")
         line = line.replace("infin","infty")
         line = line.replace("isin","in")
-        line = line.replace("|","\mid")
+        line = line.replace("|","\vert")
         print("->",line)
         texts.append(line)
 
