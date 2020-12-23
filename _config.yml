@@ -95,12 +95,12 @@ analytics:
 author:
   name             : "jiwon Choi"
   avatar           : "/assets/images/profile1.jpg"
-  bio              : "Feynman's algorithm: \n
-    \n
-    1. Write down the problem. \n
-    \n
-    2. Think really hard.\n
-    \n
+  bio              : "Feynman's algorithm: 
+
+    1. Write down the problem.
+  
+    2. Think really hard.
+  
     3. Write down the solution."
   location         : "Busan, Republic of Korea"
   email            :
