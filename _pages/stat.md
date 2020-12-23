@@ -6,4 +6,4 @@ author_profile: true
 taxonomy: statistical-physics
 ---
 
-## Monte carlo simulation and some topics
+# Monte carlo simulation and some topics
