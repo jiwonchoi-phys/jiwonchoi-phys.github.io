@@ -1,12 +1,10 @@
 ---
-title: "Condensed matter field theory"
+title: "Condensed matter field theory by Altland&Simons"
 permalink: /categories/condensed-matter-field-theory/
 layout: category
 author_profile: true
-taxonomy: condensed-matter-field-theory
+taxonomy: Condensed matter field theory
 ---
-
-# Condensed matter field theory by Altland&Simons 정리 및 요약
 
 ## Contents
 
