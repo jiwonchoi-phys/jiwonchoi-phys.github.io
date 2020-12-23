@@ -86,7 +86,7 @@ social:
 # Analytics
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
+  google:s
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
@@ -95,7 +95,10 @@ analytics:
 author:
   name             : "jiwon Choi"
   avatar           : "/assets/images/profile1.jpg"
-  bio              : "Undergrad. Physics, PKNU"
+  bio              : "Feynman's algorithm:
+  Write down the problem. 
+  Think really hard. 
+  Write down the solution."
   location         : "Busan, Republic of Korea"
   email            :
   links:
