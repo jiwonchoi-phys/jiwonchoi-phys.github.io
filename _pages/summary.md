@@ -7,3 +7,5 @@ taxonomy: summary
 ---
 
 ## List of articles I read
+
+[1] A practical introduction to tensor networks, Roman Orus, arXiv:1306.2164
