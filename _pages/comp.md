@@ -3,7 +3,7 @@ title: "Computational Methods"
 permalink: /categories/computational-methods/
 layout: category
 author_profile: true
-taxonomy: summary
+taxonomy: computational methods
 ---
 
 
