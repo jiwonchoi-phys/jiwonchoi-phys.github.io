@@ -6,7 +6,9 @@ main:
     url: "/categories/condensed-matter-field-theory/"
   - title: "Statistical Physics"
     url: "/categories/statistical-physics/"
-  - title: "Summary"
-    url: "/categories/summary"
+  - title: "Computational Methods"
+    url: "/categories/computational-methods/"
+ #- title: "Summary"
+ #  url: "/categories/summary"
   - title: "Archive"
     url: /year-archive/
