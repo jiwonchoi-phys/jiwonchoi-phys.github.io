@@ -6,11 +6,11 @@ main:
   - title: "CMFT"
     url: "/categories/condensed-matter-field-theory/"
   
-  - title: "Computational Methods"
-    url: "/categories/computational-methods/"
+  - title: "Tensor Networks"
+    url: "/categories/tensor-networks/"
 
-  - title: "Statistical Physics"
-    url: "/categories/statistical-physics/"
+  - title: "Computational Physics"
+    url: "/categories/computational-physics/"
  
  #- title: "Summary"
  #  url: "/categories/summary"

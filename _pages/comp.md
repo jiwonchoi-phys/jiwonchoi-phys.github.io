@@ -1,14 +1,8 @@
 ---
-title: "Computational Methods"
-permalink: /categories/computational-methods/
+title: "Computational Physics"
+permalink: /categories/computational-physics/
 layout: category
 author_profile: true
-taxonomy: computational methods
+taxonomy: computational physics
 ---
 
-
-
-
-## Contents
-
-[1] A practical introduction to tensor networks, Roman Orus, arXiv:1306.2164
