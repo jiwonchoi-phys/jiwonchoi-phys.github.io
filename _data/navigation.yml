@@ -1,11 +1,14 @@
 # main links
 main:
-  - title: "Posts"
-    url: "/categories/"
+# - title: "Posts"
+#   url: "/categories/"
  
   - title: "CMFT"
     url: "/categories/condensed-matter-field-theory/"
   
+  - title: "Statistical Physics"
+    url: "/categories/statistical-physics/"
+
   - title: "Tensor Networks"
     url: "/categories/tensor-networks/"
 
@@ -15,5 +18,5 @@ main:
  #- title: "Summary"
  #  url: "/categories/summary"
  
-  - title: "Archive"
+  - title: "About"
     url: /year-archive/
