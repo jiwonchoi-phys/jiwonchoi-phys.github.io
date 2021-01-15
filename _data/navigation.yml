@@ -19,4 +19,4 @@ main:
  #  url: "/categories/summary"
  
   - title: "About"
-    url: /year-archive/
+    url: /about/
