@@ -5,11 +5,11 @@ title: "About"
 
 ## Education
 
-BA course,
+BA course,  
+**Department of Physics**,  
+Pukyong National University, 2016~  
+(Serving in ROK Army from Feb 2017 until Nov 2018)
 
-**Department of Physics**,
-
-Pukyong National University, 2016~
 
 ## Research interest
 
