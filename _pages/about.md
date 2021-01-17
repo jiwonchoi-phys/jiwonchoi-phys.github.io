@@ -8,15 +8,13 @@ title: "About"
 BA course,  
 **Department of Physics**,  
 Pukyong National University, 2016~  
-(Serving in ROK Army from Feb 2017 until Nov 2018)
+(Served in Republic of Korea Army(ROKA) from Feb 2017 to Nov 2018)
 
 
 ## Research interest
 
-Condensed matter physics & Statistical physics
-
-Monte Carlo Simulation
-
+Condensed matter physics  
+Statistical physics  
 
 
 ## Presentation
@@ -26,4 +24,4 @@ Monte Carlo Simulation
 
 ## Programming skill
 
-Python
+Python, C++(basic)
