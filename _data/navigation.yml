@@ -9,11 +9,14 @@ main:
   - title: "Statistical Physics"
     url: "/categories/statistical-physics/"
 
-  - title: "Tensor Networks"
-    url: "/categories/tensor-networks/"
-
   - title: "Computational Physics"
     url: "/categories/computational-physics/"
+
+  - title: "Tensor Networks"
+    url: "/categories/tensor-networks/"
+ 
+  - title: "Nonlinear Dynamics"
+    url: "/categories/nonlinear-dynamics/"
  
  #- title: "Summary"
  #  url: "/categories/summary"
