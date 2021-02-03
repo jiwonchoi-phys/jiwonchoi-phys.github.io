@@ -11,9 +11,6 @@ main:
 
   - title: "Computational Physics"
     url: "/categories/computational-physics/"
-
-  - title: "Tensor Networks"
-    url: "/categories/tensor-networks/"
  
   - title: "Nonlinear Dynamics"
     url: "/categories/nonlinear-dynamics/"
