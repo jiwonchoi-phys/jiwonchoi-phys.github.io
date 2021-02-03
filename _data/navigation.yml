@@ -15,8 +15,8 @@ main:
   - title: "Nonlinear Dynamics"
     url: "/categories/nonlinear-dynamics/"
  
- #- title: "Summary"
- #  url: "/categories/summary"
+  - title: "Mathmatical Physics"
+    url: "/categories/mathmatical-physics"
  
   - title: "About"
     url: /about/
