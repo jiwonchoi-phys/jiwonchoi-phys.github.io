@@ -16,7 +16,7 @@ comments : true
 
 $$\dot{p}_j = -\frac{\partial H}{\partial q_j},\enspace \dot{q}_j = \frac{\partial H}{\partial p_j} ,\quad\text{for}\enspace j=1,\dots,3N.$$
 
-이번에는 각각의 입자들의 운동으로 인해 생기는 압력을 살펴보자. 이 때 이 계가 열역학적 평형을 이루고 있는 상태라면 시간이 지남에 따라 벽에 작용하는 압력 $P$는 변하지 않는다. 그렇지만 계를 이루는 각각의 입자의 위치와 운동량은 시간이 지남에 따라 계속해서 변할 것이기 때문에 위상점은 머물러있지 않고 계속해서 운동하게 된다. 앞서 microstate 하나는 위상공간 내의 한 점에 해당한다고 했었다. 그런데, 시간이 지남에 따라 압력 $P$가 일정할 때에도 위상점이 변화하기 때문에 이 때 계의 macrostate는 하나로 주어진다. **즉, 하나의 macrostate에 대응되는 microstate는 매우 많다.**
+이번에는 각각의 입자들의 운동으로 인해 생기는 압력을 살펴보자. 이 때 이 계가 열역학적 평형을 이루고 있는 상태라면 시간이 지남에 따라 벽에 작용하는 압력 $P$는 변하지 않는다. 그렇지만 계를 이루는 각각의 입자의 위치와 운동량은 시간이 지남에 따라 계속해서 변할 것이기 때문에 위상점은 머물러있지 않고 계속해서 운동하게 된다. 앞서 microstate 하나는 위상공간 내의 한 점에 해당한다고 했었다. 그런데, 시간이 지남에 따라 압력 $P$가 일정할 때에도 위상점이 변화하기 때문에 이 때 계의 macrostate는 하나로 주어진다. **따라서, 하나의 macrostate에 대응되는 microstate는 매우 많다.**
 
 예를 들어, 위와 같이 입자 $N$개로 이루어진 고립계를 생각하자. 계의 해밀토니안을 구성하고 나면, 이는 계의 전체 에너지에 대응된다. 그리고 해밀토니안은 각각 입자의 운동량에 의존하고, 이들의 시간 변화는 위의 해밀턴 운동방정식으로 주어진다. 이 계가 고립계이기 때문에 해밀토니안은 시간에 대해 독립적이므로 계의 전체 에너지
 
@@ -32,7 +32,7 @@ $$\frac{dA}{dt} = \frac{\partial A}{\partial t}+\sum_{\nu=1}^{3N}\left(\frac{\pa
 
 가 성립한다. 이 때 $\{A,H\}$는 Poisson bracket이다. 만약 $A$가 $H$이면, $\partial H/\partial t =0$이고 $\{H,H\}=0$이기 때문에 에너지 보존 법칙이 성립한다. 
 
-
+Under construction
 
 
 
@@ -41,8 +41,7 @@ $$\frac{dA}{dt} = \frac{\partial A}{\partial t}+\sum_{\nu=1}^{3N}\left(\frac{\pa
 
 ## Reference
 
-[1] Thermodynamics and Statistical Mechanics, Greiner,Neise,and Stoecker, Springer-Verlag, 1995
-   .
+[1] Thermodynamics and Statistical Mechanics, Greiner,Neise,and Stoecker, Springer-Verlag, 1995.
 
 
    
