@@ -1,5 +1,5 @@
 ---
-title : "통계물리 (8). Pure and Mixed States"
+title : "통계물리 (9). Pure and Mixed States"
 excerpt: "Thermodynamics and Statistical Mechanics by Greiner, Chap.10"
 categories :
     - statistical physics
