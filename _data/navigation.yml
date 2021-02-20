@@ -17,6 +17,9 @@ main:
  
   - title: "Mathmatical Physics"
     url: "/categories/mathmatical-physics"
+
+  - title: "Optics"
+    url: "/categories/optics"  
  
   - title: "About"
     url: /about/
