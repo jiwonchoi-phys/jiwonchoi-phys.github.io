@@ -52,7 +52,7 @@ $$\sum_i \rho_{ii}=1,\quad 0\le \rho_{ii} \le 1$$
 
 $$\vert\langle\phi_f\vert\Psi^{(i)}\rangle\vert^2=\langle\phi_f\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert\phi_f\rangle$$
 
-로 쓸 수 있고, $\vert\phi_f\rangle\langle\phi_f\vert=\hat{P}_{\vert\phi_{f}\rangle}$, $\hat{\rho}^{\text{pure}}=\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert$ 이므로
+로 쓸 수 있고, $\vert\phi\_f\rangle\langle\phi\_f\vert=\hat{P}\_{\vert\phi\_{f}\rangle}$, $\hat{\rho}^{\text{pure}}=\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert$ 이므로
 
 $$\langle\phi_f\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert\phi_f\rangle\\
 = \sum_{f'}\langle\phi_{f}\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert\phi_{f'}\rangle\langle\phi_{f'}\vert\phi_f\rangle\\
