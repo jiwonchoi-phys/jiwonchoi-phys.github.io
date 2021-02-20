@@ -1,5 +1,5 @@
 ---
-title : "통계물리 (9). Pure and Mixed States"
+title : "통계물리 (8). Pure and Mixed States"
 excerpt: "Thermodynamics and Statistical Mechanics by Greiner, Chap.10"
 categories :
     - statistical physics
@@ -41,6 +41,29 @@ $$\rho_{kk'}^{\text{pure}} = a_{k}^{(i)}a_{k'}^{(i)\ast}$$
 $$(\hat{\rho}^{\text{pure}})^2 = \hat{\rho}^{\text{pure}}$$
 
 또한 만족한다는 것을 알 수 있다.
+
+하지만 만약 계가 여러개의 $\vert\Psi^{(i)}\rangle$가 각각의 확률 $\rho_{ii}$로 존재한다면 계의 상태는 하나로 정해질 수 없다. 이런 경우를 **혼합 상태(mixed state)**라고 부른다. 그리고 물론 계가 상태 $\vert\Psi^{(i)}\rangle$에 있을 확률 $\rho_{ii}$는
+
+$$\sum_i \rho_{ii}=1,\quad 0\le \rho_{ii} \le 1$$
+
+을 만족해야 한다.
+
+지금부터 특정 기저에 대해 밀도행렬이 주어지면 이로부터 어떻게 양자역학적 관측가능량을 계산할 수 있는지 알아보자. $\hat{f}$를 어떤 관측가능량, $\vert \phi_f\rangle$을 고윳값 $f$에 대응되는 고유상태라고 가정하자. 순수 상태 $\vert\Psi^{(i)}\rangle$가 주어져 있을 때 이로부터 고윳값 $f$를 얻을 확률은 일반적으로 $\vert\langle\phi_f\vert\Psi^{(i)}\rangle\vert^2$를 계산하면 된다. 이는
+
+$$\vert\langle\phi_f\vert\Psi^{(i)}\rangle\vert^2=\langle\phi_f\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert\phi_f\rangle$$
+
+로 쓸 수 있고, $\vert\phi_f\rangle\langle\phi_f\vert=\hat{P}_{\vert\phi_{f}\rangle}$, $\hat{\rho}^{\text{pure}}=\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert$ 이므로
+
+$$\langle\phi_f\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert\phi_f\rangle\\
+= \sum_{f'}\langle\phi_{f}\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert\phi_{f'}\rangle\langle\phi_{f'}\vert\phi_f\rangle\\
+= \sum_{f'}\langle\phi_{f'}\vert\Psi^{(i)}\rangle\langle\Psi^{(i)}\vert\phi_{f}\rangle\langle\phi_{f}\vert\phi_{f'}\rangle\\
+= \sum_{f'}\langle\phi_{f'}\vert \hat{\rho}^{\text{pure}}\hat{P}_{\vert\phi_{f}\rangle}\vert\phi_{f'}\rangle\\
+= \text{Tr}\,(\hat{\rho}^{\text{pure}}\hat{P}_{\vert\phi_{f}\rangle}) $$
+
+를 통해 확률을 계산할 수도 있다. 
+
+
+
 
 
 
