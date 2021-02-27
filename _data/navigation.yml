@@ -18,6 +18,9 @@ main:
   - title: "Mathmatical Physics"
     url: "/categories/mathmatical-physics"
 
+  - title: "Electrodynamics"
+    url: "/categories/electrodynamics" 
+
   - title: "Optics"
     url: "/categories/optics"  
  
