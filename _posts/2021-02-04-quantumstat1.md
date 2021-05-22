@@ -1,5 +1,5 @@
 ---
-title : "통계물리 (8). Quantum Statistics: Density Operators"
+title : "통계물리 (7). Quantum Statistics: Density Operators"
 excerpt: "Thermodynamics and Statistical Mechanics by Greiner, Chap.10"
 categories :
     - statistical physics
