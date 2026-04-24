@@ -35,6 +35,7 @@ redirect_from:
 
 **2023–present**  
 Ph.D. student in Physics, Saarland University  
+- Supervisor: Heiko Rieger
 
 **2022–2023**  
 M.Sc. in Physics, Pukyong National University  
