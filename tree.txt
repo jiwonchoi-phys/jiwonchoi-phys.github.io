@@ -1,0 +1,267 @@
+.
+├── CONTRIBUTING.md
+├── Gemfile
+├── LICENSE
+├── README.md
+├── _config.yml
+├── _data
+│   ├── authors.yml
+│   ├── navigation.yml
+│   └── ui-text.yml
+├── _includes
+│   ├── analytics-providers
+│   │   ├── custom.html
+│   │   ├── google-analytics-4.html
+│   │   ├── google-universal.html
+│   │   └── google.html
+│   ├── analytics.html
+│   ├── archive-single-cv.html
+│   ├── archive-single-talk-cv.html
+│   ├── archive-single-talk.html
+│   ├── archive-single.html
+│   ├── author-profile.html
+│   ├── base_path
+│   ├── breadcrumbs.html
+│   ├── browser-upgrade.html
+│   ├── category-list.html
+│   ├── comment.html
+│   ├── comments-providers
+│   │   ├── custom.html
+│   │   ├── discourse.html
+│   │   ├── disqus.html
+│   │   ├── facebook.html
+│   │   ├── google-plus.html
+│   │   ├── scripts.html
+│   │   └── staticman.html
+│   ├── comments.html
+│   ├── cv-template.html
+│   ├── feature_row
+│   ├── footer
+│   │   └── custom.html
+│   ├── footer.html
+│   ├── gallery
+│   ├── group-by-array
+│   ├── head
+│   │   └── custom.html
+│   ├── head.html
+│   ├── masthead.html
+│   ├── nav_list
+│   ├── page__hero.html
+│   ├── page__taxonomy.html
+│   ├── paginator.html
+│   ├── post_pagination.html
+│   ├── read-time.html
+│   ├── scripts.html
+│   ├── seo.html
+│   ├── sidebar.html
+│   ├── social-share.html
+│   ├── tag-list.html
+│   └── toc
+├── _layouts
+│   ├── archive-taxonomy.html
+│   ├── archive.html
+│   ├── compress.html
+│   ├── cv-layout.html
+│   ├── default.html
+│   ├── single.html
+│   ├── splash.html
+│   └── talk.html
+├── _pages
+│   ├── 404.md
+│   ├── about.md
+│   ├── category-archive.html
+│   ├── collection-archive.html
+│   ├── cv.md
+│   ├── page-archive.html
+│   ├── publications.html
+│   ├── tag-archive.html
+│   └── year-archive.html
+├── _posts
+├── _publications
+├── _sass
+│   ├── _syntax.scss
+│   ├── _themes.scss
+│   ├── include
+│   │   ├── _mixins.scss
+│   │   └── _utilities.scss
+│   ├── layout
+│   │   ├── _archive.scss
+│   │   ├── _base.scss
+│   │   ├── _buttons.scss
+│   │   ├── _footer.scss
+│   │   ├── _forms.scss
+│   │   ├── _json_cv.scss
+│   │   ├── _masthead.scss
+│   │   ├── _navigation.scss
+│   │   ├── _notices.scss
+│   │   ├── _page.scss
+│   │   ├── _reset.scss
+│   │   ├── _sidebar.scss
+│   │   └── _tables.scss
+│   ├── theme
+│   │   ├── _air_dark.scss
+│   │   ├── _air_light.scss
+│   │   ├── _contrast_dark.scss
+│   │   ├── _contrast_light.scss
+│   │   ├── _default_dark.scss
+│   │   ├── _default_light.scss
+│   │   ├── _dirt_dark.scss
+│   │   ├── _dirt_light.scss
+│   │   ├── _mint_dark.scss
+│   │   ├── _mint_light.scss
+│   │   ├── _sunrise_dark.scss
+│   │   └── _sunrise_light.scss
+│   └── vendor
+│       ├── breakpoint
+│       │   ├── _breakpoint.scss
+│       │   ├── _context.scss
+│       │   ├── _helpers.scss
+│       │   ├── _legacy-settings.scss
+│       │   ├── _no-query.scss
+│       │   ├── _parsers.scss
+│       │   ├── _respond-to.scss
+│       │   ├── _settings.scss
+│       │   └── parsers
+│       │       ├── _double.scss
+│       │       ├── _query.scss
+│       │       ├── _resolution.scss
+│       │       ├── _single.scss
+│       │       ├── _triple.scss
+│       │       ├── double
+│       │       │   ├── _default-pair.scss
+│       │       │   ├── _default.scss
+│       │       │   └── _double-string.scss
+│       │       ├── resolution
+│       │       │   └── _resolution.scss
+│       │       ├── single
+│       │       │   └── _default.scss
+│       │       └── triple
+│       │           └── _default.scss
+│       ├── font-awesome
+│       │   ├── _animated.scss
+│       │   ├── _bordered-pulled.scss
+│       │   ├── _core.scss
+│       │   ├── _fixed-width.scss
+│       │   ├── _functions.scss
+│       │   ├── _icons.scss
+│       │   ├── _list.scss
+│       │   ├── _mixins.scss
+│       │   ├── _rotated-flipped.scss
+│       │   ├── _screen-reader.scss
+│       │   ├── _shims.scss
+│       │   ├── _sizing.scss
+│       │   ├── _stacked.scss
+│       │   ├── _variables.scss
+│       │   ├── brands.scss
+│       │   ├── fontawesome.scss
+│       │   ├── regular.scss
+│       │   ├── solid.scss
+│       │   └── v4-shims.scss
+│       └── susy
+│           ├── _su.scss
+│           ├── _susy.scss
+│           ├── _susyone.scss
+│           └── susy
+│               ├── _su.scss
+│               ├── language
+│               │   ├── _susy.scss
+│               │   ├── _susyone.scss
+│               │   ├── susy
+│               │   │   ├── _background.scss
+│               │   │   ├── _bleed.scss
+│               │   │   ├── _box-sizing.scss
+│               │   │   ├── _breakpoint-plugin.scss
+│               │   │   ├── _container.scss
+│               │   │   ├── _context.scss
+│               │   │   ├── _gallery.scss
+│               │   │   ├── _grids.scss
+│               │   │   ├── _gutters.scss
+│               │   │   ├── _isolate.scss
+│               │   │   ├── _margins.scss
+│               │   │   ├── _padding.scss
+│               │   │   ├── _rows.scss
+│               │   │   ├── _settings.scss
+│               │   │   ├── _span.scss
+│               │   │   └── _validation.scss
+│               │   └── susyone
+│               │       ├── _background.scss
+│               │       ├── _functions.scss
+│               │       ├── _grid.scss
+│               │       ├── _isolation.scss
+│               │       ├── _margin.scss
+│               │       ├── _media.scss
+│               │       ├── _padding.scss
+│               │       └── _settings.scss
+│               ├── output
+│               │   ├── _float.scss
+│               │   ├── _shared.scss
+│               │   ├── _support.scss
+│               │   ├── float
+│               │   │   ├── _container.scss
+│               │   │   ├── _end.scss
+│               │   │   ├── _isolate.scss
+│               │   │   └── _span.scss
+│               │   ├── shared
+│               │   │   ├── _background.scss
+│               │   │   ├── _container.scss
+│               │   │   ├── _direction.scss
+│               │   │   ├── _inspect.scss
+│               │   │   ├── _margins.scss
+│               │   │   ├── _output.scss
+│               │   │   └── _padding.scss
+│               │   └── support
+│               │       ├── _background.scss
+│               │       ├── _box-sizing.scss
+│               │       ├── _clearfix.scss
+│               │       ├── _prefix.scss
+│               │       ├── _rem.scss
+│               │       └── _support.scss
+│               └── su
+│                   ├── _grid.scss
+│                   ├── _settings.scss
+│                   ├── _utilities.scss
+│                   └── _validation.scss
+├── assets
+│   ├── css
+│   │   ├── academicons.css
+│   │   ├── academicons.min.css
+│   │   ├── collapse.css
+│   │   └── main.scss
+│   ├── fonts
+│   │   ├── academicons.eot
+│   │   ├── academicons.svg
+│   │   ├── academicons.ttf
+│   │   └── academicons.woff
+│   ├── js
+│   │   ├── _main.js
+│   │   ├── collapse.js
+│   │   ├── main.min.js
+│   │   ├── plugins
+│   │   │   └── jquery.greedy-navigation.js
+│   │   └── theme.js
+│   └── webfonts
+│       ├── fa-brands-400.ttf
+│       ├── fa-brands-400.woff2
+│       ├── fa-regular-400.ttf
+│       ├── fa-regular-400.woff2
+│       ├── fa-solid-900.ttf
+│       ├── fa-solid-900.woff2
+│       ├── fa-v4compatibility.ttf
+│       └── fa-v4compatibility.woff2
+├── del_unnes.sh
+├── images
+│   ├── apple-touch-icon-180x180.png
+│   ├── favicon-192x192.png
+│   ├── favicon-32x32.png
+│   ├── favicon-512x512.png
+│   ├── favicon.ico
+│   ├── favicon.svg
+│   ├── manifest.json
+│   └── profile.png
+├── package.json
+├── talkmap.ipynb
+├── talkmap.py
+├── talkmap_out.ipynb
+└── tree.txt
+
+40 directories, 225 files
